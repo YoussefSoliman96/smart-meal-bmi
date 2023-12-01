@@ -11,13 +11,15 @@ datasource db {
 }
 
 model User {
-  id     Int     @id @default(autoincrement())
-  name   String
-  email  String  @unique
-  height Int
-  weight Int
-  age    Int
-  gender Gender?
+  id       Int     @id @default(autoincrement())
+  name     String
+  email    String  @unique
+  height   Int
+  weight   Int
+  age      Int
+  gender   Gender?
+  bmi      Int?
+  calories Int?
 }
 
 enum Gender {

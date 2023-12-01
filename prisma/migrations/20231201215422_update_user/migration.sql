@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `User` ADD COLUMN `bmi` INTEGER NULL,
+    ADD COLUMN `calories` INTEGER NULL;
