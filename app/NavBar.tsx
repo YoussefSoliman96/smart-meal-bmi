@@ -15,6 +15,7 @@ const NavBar = () => {
     { label: "BMI", href: "/bmi" },
     { label: "Profile", href: "/profile" },
     { label: "Calorie Calculator", href: "/calorie-calculator" },
+    { label: "Meal Planner", href: "/meal-planner" },
   ];
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
